@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.dot{
+	position: absolute;
+width: 20.2%;
+height: 18.9%;
+left: 10%;
+top: 10%;
+}
+.container{
+	max-width: 1110px;
+}
+.title-h1{
+	font-size: 52px;
+}
+.shop-item{
+	display: flex;
+	height: 264px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+}
+.shop-item01 {
+	background-image: url(item01.png);
+}
+.shop-item02 {
+	background-image: url(item02.png);
+}
+.shop-item03 {
+	background-image: url(item03.png);
+}
+.sale{
+	font-family: 'Rubik', sans-serif;
+	background-color: #083C6E;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 11px 20px 10px;
+	position: absolute;
+	top: 13px;
+	left: 13px;
+}
+.nosale{
+	visibility: hidden;
+}
+.text-info{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: .8rem;
+	width: 100%;
+	background-color: #083C6E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity: 0.9;
+}
+.text-info .col-4{
+	text-align: right;
+}
+
+.text-info h3{
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+.text-info p{
+	font-size: 18px;
+	color: #fff;
+	border: 1.5px solid white;
+	border-radius: 5px;
+	padding: 13px 16px;
+	margin-bottom: 0;
+}
